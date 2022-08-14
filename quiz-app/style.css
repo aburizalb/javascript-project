@@ -51,12 +51,15 @@ button {
     color:  white;
     border: none;
     display: flex;
+    justify-content: center;
     font-family: inherit;
     font-size: 1rem;
+    text-transform: uppercase;
     width: 100%;
     padding: 1.3rem;
 }
 
 button:hover {
+    cursor: pointer;
     background-color: rebeccapurple;
 }
