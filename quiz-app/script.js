@@ -88,7 +88,8 @@ submitBtn.addEventListener("click", () => {
 			loadQuiz();
 		} else {
 			//todo show result
-			quiz.innerHTML = `<h2>Hasil jawaban benar adalah ${score}/${quizData.length} Pertanyaan.</h2><button onclick="location.reload()">Reload</button>`;
+			quiz.innerHTML = `<h2>Hasil jawaban benar adalah ${score}/${quizData.length} Pertanyaan.</h2>
+			<button onclick="location.reload()">Reload</button>`;
 		}
 	}
 });
